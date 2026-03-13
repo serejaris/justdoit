@@ -16,13 +16,12 @@ Collection of Codex-first skills and docs for execution planning.
 | --- | --- |
 | `skills/` | Installable Codex skills |
 | `assets/` | Shared visuals used by READMEs |
-| `docs/` | Internal planning and release prep docs |
 
 ## Repo Contract
 
 - Root `README` files explain the repo at a product level.
 - Skill READMEs explain the concrete skill, when to use it, and how to install it.
-- `docs/plans.md`, `docs/status.md`, and `docs/test-plan.md` are the working execution pack for this repo.
+- Local execution docs may be generated during runs, but they are not committed in this repo.
 
 ## Release Checklist
 

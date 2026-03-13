@@ -47,9 +47,8 @@ Restart Codex after installation.
 ## Repository Layout
 
 - [skills/justdoit](./skills/justdoit/) — the installable skill
-- [docs/plans.md](./docs/plans.md) — current execution plan for this repo
-- [docs/status.md](./docs/status.md) — live status log
-- [docs/test-plan.md](./docs/test-plan.md) — validation and release gates
+- [assets/justdoit.gif](./assets/justdoit.gif) — branded visual used in the README
+- local execution docs such as `plans.md`, `status.md`, and `test-plan.md` are generated during runs and intentionally not versioned here
 
 ## What Makes It Different
 

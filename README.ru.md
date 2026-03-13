@@ -47,9 +47,8 @@ cp -R skills/justdoit ~/.codex/skills/
 ## Структура Репозитория
 
 - [skills/justdoit](./skills/justdoit/) — сам installable skill
-- [docs/plans.md](./docs/plans.md) — текущий план развития репозитория
-- [docs/status.md](./docs/status.md) — живой статус работ
-- [docs/test-plan.md](./docs/test-plan.md) — проверки и release gates
+- [assets/justdoit.gif](./assets/justdoit.gif) — визуал для README
+- локальные execution docs вроде `plans.md`, `status.md` и `test-plan.md` генерируются во время run и специально не коммитятся в этот репозиторий
 
 ## Чем Отличается
 
