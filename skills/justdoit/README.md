@@ -1,10 +1,10 @@
 # justdoit Skill
 
-A Codex skill that turns a vague task into a clear execution pack, then asks before starting execution.
+A skill that turns a vague task into a clear execution pack, then asks before starting execution. Works with Codex and Claude Code.
 
 ## Problem
 
-Most long Codex runs fail before implementation, not during it:
+Most long AI agent runs fail before implementation, not during it:
 - the repo is not scanned properly
 - the plan lives only in chat
 - execution starts before validation is defined
@@ -12,7 +12,7 @@ Most long Codex runs fail before implementation, not during it:
 
 ## Solution
 
-`justdoit` makes Codex behave like an execution operator:
+`justdoit` makes the agent behave like an execution operator:
 - inspect the repo first
 - create `plans.md`, `status.md`, and `test-plan.md`
 - summarize the proposed run in plain language
@@ -20,6 +20,8 @@ Most long Codex runs fail before implementation, not during it:
 - continue with an execution loop only after approval
 
 ## Installation
+
+### Codex
 
 In Codex, ask:
 
@@ -37,6 +39,22 @@ cp -R skills/justdoit ~/.codex/skills/
 
 Restart Codex after installation.
 
+### Claude Code
+
+The `SKILL.md` format is compatible with Claude Code skills. Copy the skill directory to your Claude Code skills folder:
+
+```bash
+# User-level (available in all projects)
+mkdir -p ~/.claude/skills
+cp -R skills/justdoit ~/.claude/skills/
+
+# Project-level (available only in this project)
+mkdir -p .claude/skills
+cp -R skills/justdoit .claude/skills/
+```
+
+After installation, use `/justdoit <task>` in Claude Code.
+
 ## When To Use It
 
 Use `justdoit` by default for almost any non-trivial task.
@@ -46,7 +64,7 @@ That includes:
 - coding tasks
 - PRD-to-execution work
 - repo changes that should be reviewed before execution
-- any task where Codex should first understand the project, then propose a run
+- any task where the agent should first understand the project, then propose a run
 
 You usually do **not** need a special trigger phrase.
 If the task needs real work rather than a one-line answer, `justdoit` is the right default.

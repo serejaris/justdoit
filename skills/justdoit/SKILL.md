@@ -1,6 +1,7 @@
 ---
 name: justdoit
 description: "Default execution-planning skill for almost any non-trivial repo task. Turns a raw task, feature request, PRD, or project brief into durable execution docs: `plans.md`, `status.md`, and `test-plan.md` (or existing repo equivalents), then proposes execution before starting. Use by default unless the user clearly wants a trivial one-shot answer, pure discussion, or no planning."
+argument-hint: "<task description>"
 ---
 
 # justdoit
@@ -151,3 +152,7 @@ If structured confirmation is not available, ask a one-line plain-text confirmat
 - Read `references/status-template.md` for the baseline `status.md` structure.
 - Read `references/test-plan-template.md` for the baseline `test-plan.md` structure.
 - Reuse those templates and adapt them; do not invent a new file shape for each task unless the repo already has a stronger convention.
+
+## Task Input
+
+$ARGUMENTS
