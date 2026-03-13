@@ -1,4 +1,4 @@
 interface:
   display_name: "justdoit"
-  short_description: "Plan work, talk product-first, then ask before execution"
-  default_prompt: "Use $justdoit to prepare plans.md, status.md, and test-plan.md for this task, then reply briefly in the same language with a product-level execution proposal and ask for confirmation before starting."
+  short_description: "Default mode for non-trivial repo work before execution"
+  default_prompt: "Use $justdoit as the default mode for this task: inspect the repo, prepare plans.md, status.md, and test-plan.md if needed, then reply briefly in the same language with a product-level execution proposal and ask for confirmation before starting."

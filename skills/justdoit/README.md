@@ -39,10 +39,17 @@ Restart Codex after installation.
 
 ## When To Use It
 
-- "turn this task into a plan pack"
-- "prepare plans.md / status.md for this repo"
-- "break this PRD into milestones"
-- "before you start, analyze the repo and propose execution"
+Use `justdoit` by default for almost any non-trivial task.
+
+That includes:
+- product tasks
+- coding tasks
+- PRD-to-execution work
+- repo changes that should be reviewed before execution
+- any task where Codex should first understand the project, then propose a run
+
+You usually do **not** need a special trigger phrase.
+If the task needs real work rather than a one-line answer, `justdoit` is the right default.
 
 ## What You Get
 
