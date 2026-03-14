@@ -11,6 +11,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Claude Code support: `SKILL.md` now works as a Claude Code skill with `argument-hint` and `$ARGUMENTS`
 - Claude Code installation instructions in all READMEs
 
+### Changed
+- Clarified repo positioning: Codex-first, with Claude Code as a compatible secondary path
+
 ## [1.0.0] - 2026-03-13
 
 ### Added

@@ -3,13 +3,13 @@
 [![en](https://img.shields.io/badge/lang-en-blue.svg)](README.md)
 [![ru](https://img.shields.io/badge/lang-ru-green.svg)](README.ru.md)
 
-> A skill for Codex and Claude Code that turns messy tasks into a clear execution pack, then asks before starting the run.
+> A Codex-first skill that also works in Claude Code. It turns messy tasks into a clear execution pack, then asks before starting the run.
 
 By [Ris](https://t.me/ris_ai) — AI development & vibecoding
 
 ![justdoit](./assets/justdoit.gif)
 
-`justdoit` is a focused repository for one skill with one job:
+`justdoit` is a focused repository for one execution-planning skill with one job:
 take a rough task, inspect the repo, prepare a plan pack, and only then propose execution in plain language.
 
 ## What It Does
@@ -24,7 +24,7 @@ take a rough task, inspect the repo, prepare a plan pack, and only then propose 
 
 - founders and operators who want a reliable execution handoff
 - solo builders who need a durable plan before a long run
-- Codex and Claude Code users who want fewer walls of text and more clear next steps
+- Codex users first, plus Claude Code users who want fewer walls of text and more clear next steps
 
 ## Install
 

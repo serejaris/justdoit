@@ -14,7 +14,7 @@ Collection of Codex-first skills and docs for execution planning.
 
 | Path | Purpose |
 | --- | --- |
-| `skills/` | Installable skills (Codex and Claude Code) |
+| `skills/` | Installable skills (Codex-first, Claude Code-compatible) |
 | `assets/` | Shared visuals used by READMEs |
 
 ## Repo Contract

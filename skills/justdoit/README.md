@@ -1,6 +1,6 @@
 # justdoit Skill
 
-A skill that turns a vague task into a clear execution pack, then asks before starting execution. Works with Codex and Claude Code.
+A Codex-first skill that turns a vague task into a clear execution pack, then asks before starting execution. Also works in Claude Code.
 
 ## Problem
 
