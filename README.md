@@ -1,3 +1,31 @@
+<!-- hq-readme-ru: 2026-05-09 -->
+# justdoit
+
+Коротко: Рабочий репозиторий: Standalone Codex skill that turns vague tasks into an execution pack and asks before running.
+
+## Что здесь
+
+- Назначение: Рабочий репозиторий: Standalone Codex skill that turns vague tasks into an execution pack and asks before running.
+- Основной стек: не указан.
+- Видимость: публичный репозиторий.
+- Статус: активный репозиторий; актуальность проверять по issues и последним коммитам.
+
+## Где смотреть работу
+
+- Задачи и текущие решения: GitHub Issues этого репозитория.
+- Код и материалы: файлы в корне и профильные папки проекта.
+- Связь с HQ: если проект влияет на продукт, контент или воронку, сверяйте канон в `0_hq` и репозитории-владельце.
+
+## Для агентов
+
+- Сначала прочитайте этот README и открытые issues.
+- Не переносите сюда канон соседних проектов без ссылки на источник.
+- Перед правками проверьте существующие scripts, package.json/pyproject и локальные инструкции.
+
+---
+
+## Исходный README
+
 # justdoit
 
 [![en](https://img.shields.io/badge/lang-en-blue.svg)](README.md)
